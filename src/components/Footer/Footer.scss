@@ -1,0 +1,31 @@
+@use "../../styles/variables" as *;
+
+.footer {
+  background-color: $color-grey;
+  color: $color-white;
+  text-align: center;
+  padding: 20px 0;
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+
+  &__icon {
+    font-size: 24px;
+    color: $color-white;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $color-grey-light;
+    }
+  }
+
+  &__copyright {
+    font-family: monospace;
+    font-size: 14px;
+    color: $color-grey-light;
+  }
+}

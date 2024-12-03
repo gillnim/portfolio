@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+.skills {
+    padding: 40px 20px;
+    background-color: $color-white;
+    text-align: center;
+  
+    &__title {
+      font-family: monospace;
+      font-size: 32px;
+      color: $color-grey;
+      margin-bottom: 30px;
+    }
+  
+    &__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 50px;
+  
+      @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr); // Two cards per row on larger screens
+      }
+  
+      @media (min-width: 1024px) {
+        grid-template-columns: repeat(4, 1fr); // Three cards per row on desktops
+      }
+    }
+  }
+  
