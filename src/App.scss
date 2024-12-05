@@ -1,4 +1,43 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+// Global Theme Styles
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  &.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  &.dark {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
+// Header Theme Toggle
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: inherit;
+
+  &__theme-toggle {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }

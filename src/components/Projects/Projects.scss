@@ -1,14 +1,14 @@
 @use "../../styles/variables" as *;
 .projects {
     padding: 40px 20px;
-    background-color: $color-grey-light;
-    color: $color-black;
+    background-color: var(--color-grey-light);
+    color: var(--color-black);
     text-align: center;
   
     &__title {
       font-family: monospace;
       font-size: 32px;
-      color: $color-black;
+      color: var(--color-black);
       margin-bottom: 30px;
     }
   
@@ -30,8 +30,8 @@
   .project-card {
     display: block;
     text-decoration: none;
-    background-color: $color-white;
-    border: 1px solid $color-grey;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey);
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -62,14 +62,14 @@
     &__title {
       font-family: monospace;
       font-size: 20px;
-      color: $color-grey;
+      color: var(--color-grey);
       margin-bottom: 10px;
     }
   
     &__description {
       font-family: monospace;
       font-size: 16px;
-      color: $color-grey;
+      color: var(--color-grey);
       margin-bottom: 20px;
     }
   
@@ -81,11 +81,11 @@
       text-decoration: none;
       padding: 0;
       font-family: monospace;
-      color: $color-grey;
+      color: var(--color-grey);
   
       &__tech {
-        background-color: $color-white;
-        color: $color-black;
+        background-color: var(--color-white);
+        color: var(--color-black);
         border-radius: 4px;
         font-size: 12px;
         padding: 4px 8px;

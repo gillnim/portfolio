@@ -1,14 +1,14 @@
 @use "../../styles/variables" as *;
 
 .background {
-  background-color: $color-grey-light;
+  background-color: var(--color-grey-light);
   padding: 40px 20px;
   text-align: center;
   gap: 10px; 
 
   &__icon {
     font-size: 24px; 
-    color: $color-grey; 
+    color: var(--color-grey); 
   }
 
   &__content {
@@ -19,14 +19,14 @@
   &__title {
     font-family: monospace;
     font-size: 32px;
-    color: $color-black;
+    color: var(--color-black);
     margin-bottom: 20px;
   }
 
   &__subtitle {
     font-family: monospace;
     font-size: 24px;
-    color: $color-grey;
+    color: var(--color-grey);
     margin-top: 30px;
     margin-bottom: 10px;
   }
@@ -34,7 +34,7 @@
   &__text {
     font-family: monospace;
     font-size: 16px;
-    color: $color-grey;
+    color: var(--color-grey);
     line-height: 1.8;
     margin-bottom: 15px;
   }
@@ -48,12 +48,12 @@
     li {
       font-family: monospace;
       font-size: 16px;
-      color: $color-grey;
+      color: var(--color-grey);
       line-height: 1.8;
       margin-bottom: 10px;
 
       strong {
-        color: $color-black;
+        color: var(--color-black);
       }
     }
   }

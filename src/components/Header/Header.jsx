@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll"; // Import react-scroll for smooth scrolling
+import { Link } from "react-scroll";
+import { useTheme } from "../ThemeContext/ThemeContext.jsx";
+import { FaSun, FaMoon } from "react-icons/fa";
 import "./Header.scss";
 import resume from "../../assets/resume.pdf";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -25,7 +28,7 @@ const Header = () => {
         </button>
       </div>
       <div className="header__right">
-      <a
+        <a
           href={resume}
           target="_blank"
           rel="noopener noreferrer"
@@ -92,6 +95,15 @@ const Header = () => {
             Connect
           </Link>
         </nav>
+        <button
+          className="header__theme-toggle"
+          onClick={toggleTheme}
+          style={{
+            color: theme === "dark" ? "white" : "black",
+          }}
+        >
+          {theme === "light" ? <FaMoon /> : <FaSun />}
+        </button>
       </div>
     </header>
   );

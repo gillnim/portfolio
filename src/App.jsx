@@ -6,10 +6,11 @@ import Skills from './components/Skills/Skills.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import Connect from './components/Connect/Connect.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import { ThemeProvider } from './components/ThemeContext/ThemeContext.jsx';
 
 function App() {
   return (
-    <>
+    <ThemeProvider>
       <Header />
       <div id="hero">
         <Hero />
@@ -27,7 +28,7 @@ function App() {
         <Connect />
       </div>
       <Footer />
-    </>
+    </ThemeProvider>
   );
 }
 

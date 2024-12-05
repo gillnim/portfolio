@@ -1,4 +1,13 @@
-$color-black: #000;
-$color-white: #fff;
-$color-grey: #555;
-$color-grey-light: rgb(238, 237, 237);
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-grey: #555;
+  --color-grey-light: rgb(238, 237, 237);
+}
+
+body.dark-mode {
+  --color-black: #fff;
+  --color-white: #000;
+  --color-grey: #ccc;
+  --color-grey-light: #333;
+}

@@ -7,6 +7,7 @@
   align-items: center;
   padding: 20px;
   gap: 80px;
+  background-color: var(--color-white);
 
   &__content {
     text-align: center; // Center text for mobile
@@ -15,18 +16,18 @@
   &__title {
     font-family: monospace;
     font-size: 32px;
-    color: $color-black;
+    color: var(--color-black);
     margin-bottom: 10px;
 
     .hero__name {
-      color: $color-grey;
+      color: var(--color-grey);
     }
   }
 
   &__description {
     font-family: monospace;
     font-size: 16px;
-    color: $color-grey;
+    color: var(--color-grey);
     margin-bottom: 20px;
     line-height: 1.5;
   }
@@ -47,22 +48,22 @@
       width: 150px; // Fix the button width
 
       &--primary {
-        background-color: $color-black;
-        color: $color-white;
+        background-color: var(--color-black);
+        color: var(--color-white);
 
         &:hover {
-          background-color: $color-grey;
+          background-color: var(--color-grey);
         }
       }
 
       &--secondary {
-        background-color: $color-white;
-        color: $color-black;
-        border: 2px solid $color-black;
+        background-color: var(--color-white);
+        color: var(--color-black);
+        border: 2px solid var(--color-black);
 
         &:hover {
-          background-color: $color-black;
-          color: $color-white;
+          background-color: var(--color-black);
+          color: var(--color-white);
         }
       }
     }

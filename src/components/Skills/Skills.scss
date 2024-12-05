@@ -1,13 +1,13 @@
 @use "../../styles/variables" as *;
 .skills {
     padding: 40px 20px;
-    background-color: $color-white;
+    background-color: var(--color-white);
     text-align: center;
   
     &__title {
       font-family: monospace;
       font-size: 32px;
-      color: $color-grey;
+      color: var(--color-grey);
       margin-bottom: 30px;
     }
   

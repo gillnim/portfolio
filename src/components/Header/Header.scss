@@ -8,8 +8,8 @@
   position: sticky;
   top: 0;
   padding: 10px 20px;
-  background-color: $color-white;
-  border-bottom: 1px solid $color-grey;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-grey);
 
   &__left {
     display: flex;
@@ -19,7 +19,7 @@
   }
 
   &__email {
-    color: $color-black;
+    color: var(--color-black);
     font-family: monospace;
     font-size: 14px;
   }
@@ -28,17 +28,17 @@
     padding: 5px 10px;
     margin-right: 1rem;
     text-decoration: none;
-    border: 1px solid $color-grey;
-    background-color: $color-white;
+    border: 1px solid var(--color-grey);
+    background-color: var(--color-white);
     font-family: monospace;
     font-size: 14px;
     cursor: pointer;
     border-radius: 4px;
-    color: black;
+    color: var(--color-black);
 
     &:hover {
-      background-color: $color-grey;
-      color: $color-white;
+      background-color: var(--color-grey);
+      color: var(--color-white);
     }
   }
 
@@ -55,7 +55,7 @@
     background: none;
     font-size: 24px;
     cursor: pointer;
-    color: $color-black;
+    color: var(--color-black);
     margin-left: auto;
   }
 
@@ -64,8 +64,8 @@
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: $color-white;
-    border: 1px solid $color-grey;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey);
     padding: 10px;
     flex-direction: column;
     gap: 10px;
@@ -78,14 +78,14 @@
     }
 
     &-item {
-      color: $color-grey;
+      color: var(--color-grey);
       text-decoration: none;
       padding: 5px 10px;
       border-radius: 4px;
 
       &:hover {
-        background-color: $color-grey;
-        color: $color-white;
+        background-color: var(--color-grey);
+        color: var(--color-white);
       }
     }
   }
