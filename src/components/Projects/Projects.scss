@@ -40,6 +40,9 @@
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      .project-card__image {
+        filter: grayscale(0%);
+      }
     }
   
     &__image {
@@ -48,10 +51,6 @@
       background-position: center;
       filter: grayscale(100%);
       transition: filter 0.3s;
-  
-      &:hover {
-        filter: grayscale(0%);
-      }
     }
   
     &__content {
