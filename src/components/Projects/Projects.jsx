@@ -11,7 +11,7 @@ import brainflix from '../../assets/projects/brainflix.png'
 import instock from '../../assets/projects/instock.png'
 import snapshot from '../../assets/projects/snapshot.png'
 import happycompass from '../../assets/projects/happycompass.png'
-import fems from '../../assets/projects/fems'
+import fems from '../../assets/projects/fems.png'
 
 const projects = [
   {
