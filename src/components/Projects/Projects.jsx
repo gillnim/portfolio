@@ -10,14 +10,30 @@ import braincoin from '../../assets/projects/braincoin.png'
 import brainflix from '../../assets/projects/brainflix.png'
 import instock from '../../assets/projects/instock.png'
 import snapshot from '../../assets/projects/snapshot.png'
+import happycompass from '../../assets/projects/happycompass.png'
+import fems from '../../assets/projects/fems'
 
 const projects = [
+  {
+    title: "Happy Compass",
+    description: "Happy Compass is a landing page with a secure sign-up form, integrated with MongoDB for database security.",
+    techStack: ["React", "JavaScript", "AWS Cloud", "MongoDB", "Sass"],
+    link: "https://www.myhappycompass.com/",
+    image: happycompass,
+  },
   {
     title: "TalentTrace Snapshot",
     description: "Talent Trace Snapshot is a web app where users create personalized skill snapshots by selecting key skills, answering related questions, and tagging relevant technologies.",
     techStack: ["React", "JavaScript", "Firebase", "NoSQL", "Sass", "Firestore", "TailwindCSS", "ShadCN UI"],
     link: "https://talenttrace.web.app/users/YBkt2uL3tGxFwhW0Ryrc/Profile",
     image: snapshot,
+  },
+  {
+    title: "Fems in Stem",
+    description: "Fems in STEM is a custom WordPress website built with Elementor, featuring interactive elements and a custom form to collect user responses.",
+    techStack: ["WordPress", "JavaScript", "HTML", "Elementor"],
+    link: "https://femsinstem.com/",
+    image: fems,
   },
   {
     title: "KinetiScan",

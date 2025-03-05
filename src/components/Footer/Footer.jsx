@@ -31,7 +31,7 @@ const Footer = () => {
           <FaGithub />
         </a>
       </div>
-      <p className="footer__copyright">© Nimrat Gill 2024</p>
+      <p className="footer__copyright">© Made with 🤍 by Nimrat Gill 2024</p>
     </footer>
   );
 };

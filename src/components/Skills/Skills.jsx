@@ -10,7 +10,7 @@ const Skills = () => {
     },
     {
       title: "Web Development: Backend",
-      skills: ["Node.js", "Express.js", "MongoDB", "Web APIs", "Knex", "MySQL", "OAuth", "Postman", "Firebase"],
+      skills: ["Node.js", "Express.js", "MongoDB", "Web APIs", "Knex", "MySQL", "OAuth", "Postman", "Firebase", "AWS"],
     },
     {
       title: "Other Development Tools",
