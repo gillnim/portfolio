@@ -6,11 +6,11 @@ const Skills = () => {
   const skills = [
     {
       title: "Web Development: Frontend",
-      skills: ["React", "HTML", "CSS", "JavaScript", "SASS", "Responsive Design", "TypeScript", "React Native"],
+      skills: ["React", "HTML", "CSS", "JavaScript", "SASS", "Responsive Design", "TypeScript", "React Native", "TailwindCSS", "ShadCN"],
     },
     {
       title: "Web Development: Backend",
-      skills: ["Node.js", "Express.js", "MongoDB", "Web APIs", "Knex", "MySQL", "OAuth", "Postman"],
+      skills: ["Node.js", "Express.js", "MongoDB", "Web APIs", "Knex", "MySQL", "OAuth", "Postman", "Firebase"],
     },
     {
       title: "Other Development Tools",
