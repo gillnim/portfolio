@@ -9,8 +9,16 @@ import nitro from '../../assets/projects/nitro.png'
 import braincoin from '../../assets/projects/braincoin.png'
 import brainflix from '../../assets/projects/brainflix.png'
 import instock from '../../assets/projects/instock.png'
+import snapshot from '../../assets/projects/snapshot.png'
 
 const projects = [
+  {
+    title: "TalentTrace Snapshot",
+    description: "Talent Trace Snapshot is a web app where users create personalized skill snapshots by selecting key skills, answering related questions, and tagging relevant technologies.",
+    techStack: ["React", "JavaScript", "Firebase", "NoSQL", "Sass", "Firestore", "TailwindCSS", "ShadCN UI"],
+    link: "https://talenttrace.web.app/users/YBkt2uL3tGxFwhW0Ryrc/Profile",
+    image: snapshot,
+  },
   {
     title: "KinetiScan",
     description: "A pose analysis tool for rehabilitation that using computer visio to measure your range of motion.",
